@@ -14,32 +14,32 @@ programa {
       escreva ("Insira o segundo numero: \n")
       leia(v2)
 
-      escreva ("Digite a operaÁ„o desejada, sendo a = soma, b = subtraÁ„o, c = multiplicaÁ„o, d = divis„o, e = sair: \n")
+      escreva ("Digite a opera√ß√£o desejada, sendo a = soma, b = subtra√ß√£o, c = multiplica√ß√£o, d = divis√£o, e = sair: \n")
       leia(opcao)
 
       escolha(opcao) {
 
         caso 'a' :
           res = v1 + v2
-          escreva("O valor da soma È de: " ,res ,"\n")
+          escreva("O valor da soma √© de: " ,res ,"\n")
           pare
 
         caso 'b' :
           res = v1 - v2
-          escreva("O valor da subtraÁ„o È de: " ,res, "\n")
+          escreva("O valor da subtra√ß√£o √© de: " ,res, "\n")
           pare
 
         caso 'c' :
           res = v1 * v2
-          escreva("O valor da multiplicaÁ„o È de: ",res, "\n")
+          escreva("O valor da multiplica√ß√£o √© de: ",res, "\n")
           pare
 
         caso 'd' :
-          se (v2 != 0) {
+          se (v2 e v1 != 0) {
             res = v1 / v2
-            escreva("O valor da divis„o È de: ", res, "\n")
+            escreva("O valor da divis√£o √© de: ", res, "\n")
           } senao {
-            escreva("N„o È possÌvel dividir por zero.\n")
+            escreva("N√£o √© poss√≠vel dividir por zero.\n")
           }
           pare
 
@@ -47,7 +47,7 @@ programa {
           pare
 
         caso contrario :
-          escreva("OpÁ„o inv·lida. Tente novamente.\n")
+          escreva("Op√ß√£o inv√°lida. Tente novamente.\n")
       }
 		}
       
